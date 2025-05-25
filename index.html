@@ -1,19 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vitaliia Ioffe – Software Engineer, VC Analyst, and Academic Researcher" />
   <title>Vitaliia Ioffe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-color: #f9f9f9;
+      --text-color: #222;
+      --accent-color: #0059b3;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.7;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    nav {
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    nav a {
+      color: var(--accent-color);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      font-size: 2.25rem;
+      margin-bottom: 1rem;
+    }
+    section {
+      margin-top: 2rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      color: #999;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <h1>Vitaliia Ioffe</h1>
-  <p>Investment Analyst | Software Engineer | Academic Researcher</p>
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="cv.html">CV</a> |
-    <a href="research.html">Research</a> |
-    <a href="contact.html">Contact</a>
-  </nav>
-  <p>Welcome to my personal website. Here you can learn more about my professional, academic, and technical work.</p>
+  <div class="container">
+    <h1>Vitaliia Ioffe</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cv.html">CV</a>
+      <a href="research.html">Research</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I’m a Senior Software Engineer at Citi, Investment Analyst at Selective VC, and MBA candidate at Bar-Ilan University. I work across technology, venture capital, and academic research, blending engineering expertise with financial analysis and strategic insight.
+      </p>
+      <p>
+        My work spans infrastructure automation, early-stage startup evaluation, and applied mathematics. I thrive at the intersection of tech and business.
+      </p>
+    </section>
+
+    <section>
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="mailto:vitaliiaioffe@gmail.com">vitaliiaioffe@gmail.com</a></li>
+        <li><a href="https://linkedin.com/in/vitaliia-ioffe" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/VitaliyaIoffe" target="_blank">GitHub</a></li>
+        <li><a href="cv.html">CV (HTML)</a></li>
+        <li><a href="/cv-ioffe-vc-2025.pdf" target="_blank">CV (PDF)</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Vitaliia Ioffe</p>
+    </footer>
+  </div>
 </body>
 </html>
-

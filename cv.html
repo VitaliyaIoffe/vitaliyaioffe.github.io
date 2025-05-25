@@ -1,53 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vitaliia Ioffe CV" />
   <title>CV – Vitaliia Ioffe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f9f9f9;
+      color: #222;
+      line-height: 1.7;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 800px;
+      background: #fff;
+      margin: 0 auto;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    nav {
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    nav a {
+      color: #0059b3;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.25rem;
+    }
+    p, ul {
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.2em;
+    }
+  </style>
 </head>
 <body>
-  <h1>Curriculum Vitae</h1>
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="cv.html">CV</a> |
-    <a href="research.html">Research</a> |
-    <a href="contact.html">Contact</a>
-  </nav>
+  <div class="container">
+    <h1>CV – Vitaliia Ioffe</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cv.html">CV</a>
+      <a href="research.html">Research</a>
+      <a href="contact.html">Contact</a>
+    </nav>
 
-  <h2>Download PDF</h2>
-  <p><a href="assets/cv-ioffe-vc-2025.pdf" target="_blank">Click here to download my CV (PDF)</a></p>
+    <p><a href="/cv-ioffe-vc-2025.pdf" target="_blank">Download PDF Version</a></p>
 
-  <h2>Venture Capital Experience</h2>
-  <p><strong>Investment Analyst</strong>, Selective VC (2025 – Present)<br>
-    • Analyzed 20+ startups (unit economics, market sizing, PMF)<br>
-    • Prepared 30+ one-pagers, 2 investment memos<br>
-    • Interviewed founders & LPs
-  </p>
+    <h2>Venture Capital</h2>
+    <p><strong>Investment Analyst</strong>, Selective VC (2025 – Present)<br />
+    • Conducted due diligence on 20+ startups<br />
+    • Built 30+ one-pagers and 2 investment memos<br />
+    • Focus on Web2/Web3, market sizing, and valuation</p>
 
-  <h2>Engineering Experience</h2>
-  <p><strong>Senior Software Engineer</strong>, Citi (2022 – Present)<br>
-    • Led infrastructure automation team, built testing & compliance tools<br>
-    • Developed core microservices in FastAPI<br>
-    • Halved incidents and doubled test performance
-  </p>
+    <h2>Engineering Experience</h2>
+    <p><strong>Senior Software Engineer</strong>, Citi (2022 – Present)<br />
+    • Infrastructure automation, pricing microservices<br />
+    • Python, FastAPI, Flask, OpenShift, CI/CD</p>
 
-  <p><strong>Lead Software Engineer</strong>, VK Tarantool (2021)<br>
-    • Built CI/CD, performance monitoring with Grafana/InfluxDB<br>
-    • Developed testing framework in Lua, Docker automation
-  </p>
+    <p><strong>Lead Engineer</strong>, VK, Tarantool (2021)<br />
+    • Built testing tools in Lua, maintained CI/CD and Docker automation</p>
 
-  <p><strong>Software Engineer</strong>, Deutsche Bank (2019–2021)<br>
-    • Developed Python tests and performance metrics visualization<br>
-    • Contributed to Quantum low-latency trading platform
-  </p>
+    <p><strong>Software Engineer</strong>, Deutsche Bank (2019–2021)<br />
+    • Python-based testing and performance infrastructure</p>
 
-  <h2>Education</h2>
-  <ul>
-    <li>MBA in Finance & Investments, Bar-Ilan University (2023–2025)</li>
-    <li>MSc & BSc in Applied Mathematics and Computer Science, MSU (2015–2021)</li>
-  </ul>
+    <h2>Education</h2>
+    <ul>
+      <li>MBA, Bar-Ilan University (2023–2025)</li>
+      <li>MSc & BSc, Applied Math & CS, Lomonosov Moscow State University (2015–2021)</li>
+    </ul>
 
-  <h2>Skills</h2>
-  <p>Python, C/C++, Lua, Docker, Linux, Kubernetes, FastAPI, Git, CI/CD, Grafana</p>
+    <h2>Skills</h2>
+    <p>Python, C++, Lua, Docker, Linux, Git, Kubernetes, FastAPI, Conda, Grafana, CI/CD (GitHub Actions, TeamCity)</p>
+
+    <h2>Languages</h2>
+    <p>English (IELTS C1), Russian (native)</p>
+  </div>
 </body>
 </html>
-
